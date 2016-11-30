@@ -1,4 +1,10 @@
 <?php
+header('Access-Control-Allow-Origin: http://fen.wemesh.cn');
+header('Access-Control-Allow-Headers: Authorization, Content-Type');
+header('Content-Type: application/x-www-form-urlencoded; charset=UTF-8');
+header('Access-Control-Allow-Methods:  POST, GET, PUT, DELETE');
+
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
