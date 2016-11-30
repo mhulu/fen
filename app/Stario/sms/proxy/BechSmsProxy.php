@@ -2,8 +2,8 @@
 namespace Star\sms\proxy;
 
 use Illuminate\Support\Facades\Config;
-use Star\Utils\CreateJson;
 use Star\sms\BaseFireSms;
+use Star\utils\CreateJson;
 
 /**
  * sms.bechtech.cn 短信代理
